@@ -1,0 +1,9 @@
+### requirements
+sudo apt install mysql-server libmysqlclient-dev python-dev
+pip install flask flask-mysqldb
+
+### database creation
+mysql -u root -p
+create database crud;
+use crud;
+source /project_path/crud.sql
